@@ -1,0 +1,1 @@
+GET https://api.themoviedb.org/3/trending/all/day?api_key=71eda84661b8b91bbf4dfebc329e4a2d
