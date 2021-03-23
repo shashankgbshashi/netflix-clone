@@ -24,6 +24,7 @@ export default function Home() {
             })} */}
             <Banner />
             {RowList}
+            
         </div>
     )
 }
