@@ -83,7 +83,7 @@ export default function Row({title , url}) {
         <>
             <div className="row">
                 { /* title */}
-               <h1> {title} </h1>
+               <h3> {title} </h3>
                 <div className="posters">
                     {movieList}
                 </div>

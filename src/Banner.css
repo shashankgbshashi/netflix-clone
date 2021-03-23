@@ -56,10 +56,25 @@ Button:hover {
 }
 
 .Banner__overview{
-  width: 45rem;
+  width: 40rem;
   line-height: 1.3;
   padding-top: 1rem;
   font-size: 0.9rem;
-  max-width: 360px;
+  max-width: 340px;
   height: 80px;
+}
+
+.Banner__title{
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .Banner_footer{
+      top : 15%;
+    }
+    .Banner__content{
+      margin-left: 10px;
+    } 
 }
