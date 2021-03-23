@@ -1,7 +1,7 @@
 import React from 'react'
 import Row from "./Row"
 import request from "./request"
-
+import Banner from "./Banner"
 
 
 
@@ -22,6 +22,7 @@ export default function Home() {
                     <Row title={value.title} url={value.url} key={value.title}/>
                 )
             })} */}
+            <Banner />
             {RowList}
         </div>
     )

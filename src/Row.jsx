@@ -35,7 +35,7 @@ export default function Row({title , url}) {
 
     let movieList = movies.map((value,index) => {
         //console.log(title)
-        console.log(value);
+       // console.log(value);
         if(title === "Netflix Originals"){
         return(
             <img className="poster netflix__originals"
