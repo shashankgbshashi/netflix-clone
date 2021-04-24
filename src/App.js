@@ -7,9 +7,10 @@ import Home from "./Home"
 function App() {
   return (
     <>
-      <Switch>
+      {/* <Switch>
         <Route  path="/" component={Home}/>
-      </Switch>
+      </Switch> */}
+      <Home />
     </>
   );
 }
